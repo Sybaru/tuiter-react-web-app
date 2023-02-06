@@ -39,7 +39,7 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 48px;
-  display: inline;
+  float: left;
 }
 
 .wd-username {
@@ -48,22 +48,92 @@ body {
 }
 
 .wd-name {
-    color: white;
+  color: white;
 }
 
 .wd-content {
-    display: inline-block;
-    width: 100%;
-  }
+  display: inline-block;
+  width: 100%;
+}
 
 .wd-image-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .wd-paragraph {
-    font-size: 15px;
-    text-align: justify;
+  font-size: 15px;
+  max-width: 506px;
+  margin-right: 16px;
+  margin-left: 58px;
+}
+
+.wd-image {
+  width: 504px;
+  height: 264px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-left: 58px;
+}
+
+.wd-image-description {
+  margin-left: 58px;
+  margin-top: -5px;
+  width: 502px;
+  border: 1px solid rgb(47, 51, 54);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.wd-post {
+  font-size: 15px;
+  max-width: 480px;
+  padding: 10px;
+}
+
+.wed-post-header {
+  color: white;
+  margin-bottom: 12;
+  padding-bottom: 0px;
+}
+
+.wd-post-body {
+  color: rgb(110, 118, 125);
+  padding-top: 0px;
+}
+
+.wd-interactions {
+  width: 500px;
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  margin-left: 28px;
+}
+
+.wd-interaction-element {
+  float: left;
+  width: 25%;
+}
+
+.wd-interact {
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(110, 118, 125);
+}
+
+.wd-interact-red {
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fa5252;
+}
+
+.wd-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: text-top;
 }
