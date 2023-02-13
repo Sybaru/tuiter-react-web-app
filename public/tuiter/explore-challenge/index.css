@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.wd-highlight {
+  color: #1da1f2;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #1da1f2;
+}
+
+.wd-grey {
+  color: rgb(110, 118, 125);
+}
+
+.wd-list-grey {
+  color: black;
+  background-color: #f7f9f9;
+}
+
+.wd-list-grey:hover {
+  color: black;
+  background-color: #d6d8db;
+}
+
+.wd-bold {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #1da1f2;
+}
+
+.btn-secondary {
+  background-color: black;
+}
+
+.wd-tuit {
+  border-radius: 20px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.wd-search {
+  height: 40px;
+  border-radius: 50px;
+  width: 100%;
+  border-left: 0;
+}
+
+.wd-border-1 {
+  border: 1px;
+}
+
+.wd-info {
+    font-size: 20px;
+    margin: 0px 16px;
+    float: right;
+    display: block;
+}
+
+.wd-link {
+    color: #59b7f4;
+}
+
+.wd-small-text {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+}
+
+.wd-big-text {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+
+.wd-light-txt {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.wd-bold {
+  font-weight: bold;
+}
+
+.wd-image {
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.wd-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.wd-search-prepend {
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 50px;
+  border-right: 0;
+}
+.wd-search-text {
+  border: 0;
+  height: 35px;
+  width: 100%;
+}
+
+.wd-grey-bg {
+    background-color: #eff3f4;
+}

@@ -1,134 +1,71 @@
-@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 
 body {
-  background-color: black;
-  color: white;
-  border-color: rgb(47, 51, 54);
-  padding-left: 16px;
-  font-family: "Cantarell", sans-serif;
-  max-width: 850px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
-.wd-border {
-  border: 1px solid rgb(47, 51, 54);
-}
-
-.wd-padding-left {
-  padding-left: 20px;
-}
-
-.wd-named {
+.wd-tuit {
+  border-radius: 20px;
   width: 100%;
-}
-
-.wd-search-container {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
 }
 
 .wd-search {
-  color: white;
-  background-color: #202327;
-  width: 75%;
   height: 40px;
   border-radius: 50px;
-  border: none;
-  padding-inline: 5% 10%;
-  writing-mode: horizontal-tb;
-  padding-left: 16px;
-}
-.wd-settings {
-  text-decoration: none;
-  font-size: 40px;
-  margin: -10px 12px;
-  float: right;
-  display: block;
+  width: 100%;
+  border-left: 0;
 }
 
-.wd-links-container {
-  display: inline;
+.wd-border-1 {
+  border: 1px;
 }
 
-.wd-ul {
-  display: inline;
-}
-
-.wd-link {
-  display: inline-block;
-  font-size: 15px;
-  text-decoration: none;
+.wd-big-text {
+  font-size: 35px;
   color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
 }
 
-.wd-link-highlight {
-  display: inline-block;
-  padding: 16px;
-  font-size: 15px;
-  text-decoration: none;
-  color: rgb(29, 161, 242);
-  border-bottom: rgb(29, 161, 242);
-  border-bottom-style: solid;
-}
-
-.wd-link-item {
-  display: block;
-  padding: 16px;
-  font-size: 15px;
-  text-decoration: none;
+.wd-light-txt {
+  font-size: 13px;
   color: rgb(110, 118, 125);
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.wd-bold {
   font-weight: bold;
 }
 
-.wd-suggested {
-  list-style-type: none;
-  text-align: left;
-}
-
-.wd-topic {
-  font-size: 15px;
-  color: rgb(110, 118, 125);
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.wd-heading {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.wd-info {
-  font-size: 20px;
-  margin: 0px 16px;
-  float: right;
-  display: block;
-}
-
-.wd-content {
-  display: inline-block;
-  width: 100%;
-}
-
-.wd-logo {
-  width: 23px;
-  height: 23px;
-  display: inline-block;
-  vertical-align: text-top;
-}
-
-.wd-image-container {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
 .wd-image {
+  float: right;
   width: 100px;
   height: 100px;
-  margin-top: 10;
-  float: right;
-  object-fit: cover;
   border-radius: 10px;
+  object-fit: cover;
+}
+
+.wd-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.wd-search-prepend {
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 50px;
+  border-right: 0;
+}
+.wd-search-text {
+  border: 0;
+  height: 35px;
+  width: 100%;
 }
