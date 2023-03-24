@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.wd-tuit {
+  border-radius: 20px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.wd-search {
+  height: 40px;
+  border-radius: 50px;
+  width: 100%;
+  border-left: 0;
+}
+
+.wd-border-1 {
+  border: 1px;
+}
+
+.wd-big-text {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+
+.wd-light-txt {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.wd-bold {
+  font-weight: bold;
+}
+
+.wd-image {
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.wd-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.wd-search-prepend {
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 50px;
+  border-right: 0;
+  background-color: white;
+}
+.wd-search-text {
+  border: 0;
+  height: 35px;
+  width: 100%;
+}
+
+.wd-info {
+  font-size: 20px;
+  margin: 0px 16px;
+  float: right;
+  display: block;
+}
+
+.wd-title {
+  font-size: 20px;
+  color: white;
+}
+
+.wd-topic {
+  font-size: 15px;
+  color: rgb(110, 118, 125);
+  margin-bottom: 5px;
+}
+
+.wd-user-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  float: left;
+}
+
+.wd-username {
+  font-size: 15px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-name {
+  color: white;
+}
+
+.wd-content {
+  display: inline-block;
+  width: 100%;
+}
+
+.wd-image-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.wd-paragraph {
+  font-size: 15px;
+  max-width: 506px;
+  margin-right: 16px;
+  margin-left: 58px;
+}
+
+.wd-image-main {
+  width: 502px;
+  height: 264px;
+  border: 1px solid rgb(47, 51, 54);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-left: 58px;
+}
+
+.wd-image-main-full {
+  width: 502px;
+  height: 264px;
+  border: 1px solid rgb(47, 51, 54);
+  border-radius: 20px;
+  margin-left: 58px;
+}
+
+.wd-image-description {
+  margin-left: 58px;
+  margin-top: -5px;
+  width: 502px;
+  border: 1px solid rgb(47, 51, 54);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.wd-post {
+  font-size: 15px;
+  max-width: 480px;
+  padding: 10px;
+}
+
+.wed-post-header {
+  color: white;
+  margin-bottom: 12;
+  padding-bottom: 0px;
+}
+
+.wd-interactions {
+  width: 500px;
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  margin-left: 28px;
+}
+
+.wd-interaction-element {
+  float: left;
+  width: 25%;
+}
+
+.wd-interact {
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(110, 118, 125);
+}
+
+.wd-interact-red {
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fa5252;
+}
+
+.wd-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.wd-black {
+  background-color: #060606;
+  border: none;
+}

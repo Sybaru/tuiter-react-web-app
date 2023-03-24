@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Explore</title>
+
+    <link
+      href="../../vendors/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="index.css" rel="stylesheet" />
+
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-12 col-sm-2 col-lg-1 col-xl-2 col-xxl-2">
+          <div class="list-group">
+            <div class="list-group-item list-group-item-action">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-xl-2 col-xxl-2">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="d-none d-xl-block col-12 col-xl-10 col-xxl-10">
+                  Home
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action active">
+              <div class="row">
+                <div class="col-12 col-xl-2 col-xxl-2">
+                  <i class="fas fa-hashtag"></i>
+                </div>
+                <div class="d-none d-xl-block col-12 col-xl-10 col-xxl-10">
+                  Explore
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-xl-2 col-xxl-2">
+                  <i class="fas fa-bell"></i>
+                </div>
+                <div class="d-none d-xl-block col-12 col-xl-10 col-xxl-10">
+                  Notifications
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-xl-2 col-xxl-2">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="d-none d-xl-block col-12 col-xl-10 col-xxl-10">
+                  Messages
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-xl-2 col-xxl-2">
+                  <i class="fas fa-bookmark"></i>
+                </div>
+                <div class="d-none d-xl-block col-12 col-xl-10 col-xxl-10">
+                  Bookmarks
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-xl-2 col-xxl-2">
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="d-none d-xl-block col-12 col-xl-10 col-xxl-10">
+                  Lists
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-xl-2 col-xxl-2">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div class="d-none d-xl-block col-12 col-xl-10 col-xxl-10">
+                  Profile
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-xl-2 col-xxl-2">
+                  <i class="fas fa-comment-dots"></i>
+                </div>
+                <div class="d-none d-xl-block col-12 col-xl-10 col-xxl-10">
+                  More
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary wd-tuit mt-2">Tuit</button>
+        </div>
+
+        <div class="col-12 col-sm-10 col-lg-7 col-xl-6 col-xxl-6">
+          <div class="row">
+            <div class="col-12 col-sm-11">
+              <div class="input-group">
+                <div class="wd-search-prepend input-group-prepend wd-border-1">
+                  <span class="wd-search-text input-group-text bg-transparent">
+                    <i class="fa fa-search"></i>
+                  </span>
+                </div>
+                <input
+                  class="form-control wd-search"
+                  type="text"
+                  placeholder="Search Tuiter"
+                  name="search"
+                />
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-1">
+              <a href="explore-settings.html"
+                ><i class="pt-1 fas fa-cog fa-2x"></i
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <ul class="nav nav-tabs mt-2 mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" href="for-you.html">For You</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trending.html">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sports.html">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-none d-md-block" href="entertainment.html"
+                  >Entertainment</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="position-relative">
+            <img class="w-100" src="images/starship.png" />
+            <span class="wd-big-text">SpaceX's Starship</span>
+          </div>
+
+          <div class="list-group">
+            <div class="list-group-item list-group-item-action">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <div class="wd-light-txt">Web Development</div>
+
+                  <div class="d-inline-block wd-bold">
+                    ReactJS <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="wd-light-txt d-inline-block">- 2h</div>
+
+                  <div class="d-inline-block wd-bold">
+                    React.js is a component based front end library that makes
+                    it very easy to build Single Page Applications or SPAs
+                  </div>
+                </div>
+
+                <div>
+                  <img
+                    class="wd-image"
+                    src="https://www.svgrepo.com/download/327388/logo-react.svg"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <div class="d-inline-block wd-bold">
+                    JavaScript <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="wd-light-txt d-inline-block">- 2h</div>
+
+                  <div class="d-inline-block wd-bold">
+                    JavaScript is a programming language that can run on
+                    browsers as well as desktops
+                  </div>
+
+                  <div class="wd-light-txt">123K Tuits</div>
+                </div>
+
+                <div>
+                  <img
+                    class="wd-image"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <div class="wd-light-txt">Web Development</div>
+
+                  <div class="d-inline-block wd-bold">jQuery</div>
+
+                  <div class="wd-light-txt">123K Tuits</div>
+                </div>
+
+                <div>
+                  <img
+                    class="wd-image"
+                    src="https://cdn.icon-icons.com/icons2/2415/PNG/512/jquery_plain_wordmark_logo_icon_146445.png"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <div class="wd-light-txt">Web Development</div>
+
+                  <div class="d-inline-block wd-bold">
+                    NodeJS <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="wd-light-txt d-inline-block">- 2h</div>
+
+                  <div class="wd-light-txt">123K Tuits</div>
+                </div>
+
+                <div>
+                  <img
+                    class="wd-image"
+                    src="https://gitlab.com/uploads/-/system/project/avatar/21050922/nodejs-logo-png--435.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 d-none d-lg-block col-lg-4 col-xl-4 col-xxl-4">
+          <div class="list-group">
+            <div class="list-group-item list-group-item-action">
+              <b>Who to follow</b>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-xxl-2">
+                  <img
+                    class="wd-profile-pic"
+                    src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg"
+                  />
+                </div>
+
+                <div class="col-12 mt-2 col-lg-5 col-xxl-7">
+                  <div class="d-inline-block wd-bold">
+                    Java <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="wd-light-txt">@Java</div>
+                </div>
+
+                <div class="col-12 mt-2 col-lg-4 col-xxl-3 pt-2">
+                  <button class="btn btn-primary wd-tuit">Follow</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-xxl-2">
+                  <img
+                    class="wd-profile-pic"
+                    src="https://yt3.googleusercontent.com/ytc/AL5GRJUbyc5-XWjux8b2hl0yK7KxNt-BpInezf0mHJwH=s900-c-k-c0x00ffffff-no-rj"
+                  />
+                </div>
+
+                <div class="col-12 col-lg-5 col-xxl-7">
+                  <div class="d-inline-block wd-bold">
+                    Relativity Space <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="wd-light-txt">@relativityspace</div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-xxl-3 pt-2">
+                  <button class="btn btn-primary wd-tuit">Follow</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-xxl-2">
+                  <img
+                    class="wd-profile-pic"
+                    src="https://cdn.worldvectorlogo.com/logos/virgin-1.svg"
+                  />
+                </div>
+
+                <div class="col-12 col-lg-5 col-xxl-7">
+                  <div class="d-inline-block wd-bold">
+                    Virgin Galactic <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="wd-light-txt">@virgingalactic</div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-xxl-3 pt-2">
+                  <button class="btn btn-primary wd-tuit">Follow</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-xxl-2">
+                  <img
+                    class="wd-profile-pic"
+                    src="https://images.seattletimes.com/wp-content/uploads/2019/07/nasameatball.jpg?d=780x701"
+                  />
+                </div>
+
+                <div class="col-12 col-lg-5 I col-xxl-7">
+                  <div class="d-inline-block wd-bold">
+                    NASA <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="wd-light-txt">@NASA</div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-xxl-3 pt-2">
+                  <button class="btn btn-primary wd-tuit">Follow</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-xxl-2">
+                  <img
+                    class="wd-profile-pic"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/800px-Tesla_T_symbol.svg.png"
+                  />
+                </div>
+
+                <div class="col-12 col-lg-5 col-xxl-7">
+                  <div class="d-inline-block wd-bold">
+                    Tesla <i class="fas fa-check-circle"></i>
+                  </div>
+
+                  <div class="wd-light-txt">@Tesla</div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-xxl-3 pt-2">
+                  <button class="btn btn-primary wd-tuit">Follow</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
