@@ -2,11 +2,12 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { deleteTuit } from "./tuit-reducer";
 import TuitStats from "./tuit-stats";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = ({ post }) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   };
   return (
     <li className="list-group-item d-flex flex-row w-100">
