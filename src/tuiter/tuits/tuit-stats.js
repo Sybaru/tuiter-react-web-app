@@ -8,11 +8,12 @@ import {
   faShareFromSquare,
   faCommentAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import { updateTuitThunk } from "../../services/tuits-thunks";
 
 const TuitStats = ({ post }) => {
   const dispatch = useDispatch();
   const toggleLikedClickHandler = (tI) => {
-    dispatch(toggleLiked(tI));
+    dispatch(updateTuitThunk(tI));
   };
   return (
     <div className="d-flex flex-row w-100 pb-2">
